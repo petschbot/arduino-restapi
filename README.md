@@ -15,13 +15,13 @@ A simple combination of Ruby, utilizing the serialport and rest-client gems, and
 ## Files
 * arduino-restapi.rb (the Ruby script)
 * arduino-restapi.ino (the Arduino processing script)
-* config.yaml (an example restclient configuration)
+* config.yml (an example restclient configuration)
 
 ## Usage
 
 The api call URL and request body is outsourced to the yaml file (so you can use several API webservices in combination with the ruby script).
 
-ruby arduino-restapi.rb config.yaml /dev/tty.yourarduinousbmodemport
+ruby arduino-restapi.rb config.yml /dev/tty.yourarduinousbmodemport
 
 
 
