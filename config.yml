@@ -1,0 +1,6 @@
+:restclient:
+  :url: "http://www.yourapiurl.com"
+  :request_body: 
+    "<echo>
+     <message>This is the Echo test message</message>
+     </echo>"
