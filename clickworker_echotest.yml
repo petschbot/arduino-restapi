@@ -1,0 +1,6 @@
+:restclient:
+  :url: "https://sandbox.clickworker.com/api/marketplace/v2/echo/simple_echo"
+  :request_body: 
+    "<echo>
+     <message>This is the Echo test message</message>
+     </echo>"
